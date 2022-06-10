@@ -1,0 +1,35 @@
+.main{
+    min-height: 100vh;
+    text-align: center;
+}
+.result-container{
+    height: 60vh;
+    text-align:start;
+    overflow: auto;
+    margin: auto;
+    width: fit-content;
+}
+.input-search[type=text]{
+    border-radius: 8px;
+    font-size: 1em;
+    border: 1px solid grey;
+    transition: all 0.5s;
+    padding: 10px;
+    width: 300px;
+}
+.input-search[type=text]:focus{
+    border: 2px solid #0dcaf0 !important;
+    outline: none;
+    box-shadow: 0px 5px 5px 0px #bcb9b9;
+}
+.result-card{
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.result-card:hover{
+    filter: brightness(90%)
+}
