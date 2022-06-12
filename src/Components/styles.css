@@ -33,3 +33,9 @@
 .result-card:hover{
     filter: brightness(90%)
 }
+
+.form-div{
+    min-height: 10vh;
+    background-color: red;
+    text-align: center;
+}

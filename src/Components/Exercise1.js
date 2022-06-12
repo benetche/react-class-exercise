@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import './exercise1.css'
+import './styles.css'
 
 
 const SearchComponent = ({setFilter}) =>{

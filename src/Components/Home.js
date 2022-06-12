@@ -11,7 +11,7 @@ export default function Home(){
         <div className="flexDiv">
             <h3>React/Vue exercises</h3>
             <a href="/exercise-1">Exercise 1</a>
-            <a >Exercise 2</a>
+            <a href="/exercise-2">Exercise 2</a>
         </div>
     )
 }
