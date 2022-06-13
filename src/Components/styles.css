@@ -48,7 +48,7 @@
 }
 
 .form-input{
-    margin-top: 10px
+    margin: 10px;
 }
 select{
     border-radius: 8px;
@@ -62,4 +62,17 @@ select:focus{
     border: 2px solid #0dcaf0 !important;
     outline: none;
     box-shadow: 0px 5px 5px 0px #bcb9b9;   
+}
+input[type='submit']{
+    width: 20%;
+    height: 100%;
+    content: 'Send';
+    background-color: rgb(17, 161, 4);
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+input[type='submit']:hover{
+    cursor: pointer;
+    border: 1px solid grey;
 }
